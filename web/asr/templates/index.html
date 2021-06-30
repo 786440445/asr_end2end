@@ -1,0 +1,68 @@
+<!-- <!DOCTYPE html>
+<html>
+<body>
+
+<h3>语音识别系统</h3>
+
+<audio id="myAudio" controls>
+  Your browser does not support the audio element.
+</audio>
+
+<p>请点击按钮来获得以秒计的音频时长。</p>
+
+<p id="demo"></p>
+
+<button onclick="myFunction()">试一下</button>
+
+<script>
+function myFunction()
+{
+var x = document.getElementById("myAudio").duration;
+document.getElementById("demo").innerHTML = x;
+}
+</script>
+
+</body>
+</html> -->
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="apple-mobile-web-capable" content="yes">
+    <title>语音识别demo</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
+</head>
+<body>
+
+<div id="container">
+
+    <div id="player">
+
+        <h1>语音识别</h1>
+
+        <br>
+        <input type="file" accept="audio/*;capture=microphone" onclick="msg()">
+        <hr>
+        <audio controls autoplay></audio>
+
+        <!-- <device type="media" onchange="update(this.data)"></device>
+        <video autoplay></video>
+        <script>
+          function update(stream) {
+            document.querySelector('video').src = stream.url;
+          }
+        </script> -->
+        <AudioContext controls autoplay> </AudioContext>
+    </div>
+</div>
+<script>
+  function msg()
+  {
+    alert("Hello world!");
+  }
+</script>
+</body>
+</html>

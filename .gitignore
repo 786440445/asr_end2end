@@ -1,0 +1,16 @@
+# thchs_30
+kaldi_demo/thchs30/data
+kaldi_demo/thchs30/exp
+kaldi_demo/thchs30/mfcc
+kaldi_demo/thchs30/fbank
+kaldi_demo/thchs30/steps
+kaldi_demo/thchs30/utils
+cn_demo/multi_cn/exp
+cn_demo/multi_cn/data
+cn_demo/multi_cn/raw_wav_char
+cn_demo/multi_cn/steps
+cn_demo/multi_cn/utils
+cn_demo/multi_cn/tensorboard
+cn_demo/multi_cn/tools
+cn_demo/multi_cn/wenet
+wenet_tools/wenet/dataset/__pycache__
